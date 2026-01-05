@@ -77,8 +77,8 @@ export const Contact = () => {
               <h3 className="text-2xl font-bold text-foreground mb-4">
                 Let's build something amazing together
               </h3>
-              <p className="text-muted-foreground">
-                Whether you need a competitive programmer for your team or want to collaborate on a 
+              <p className="text-muted-foreground text-justify">
+                Whether you need a competitive programmer for your team or want to collaborate on a
                 project, I'm always open to discussing new opportunities.
               </p>
             </div>
