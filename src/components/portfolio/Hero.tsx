@@ -52,7 +52,7 @@ export const Hero = () => {
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Elements */}
       <div className="absolute inset-0 dotted-bg opacity-50" />
-      
+
       {/* Animated Blobs */}
       <div className="blob w-96 h-96 -top-48 -left-48" />
       <div className="blob w-80 h-80 -bottom-40 -right-40 animate-delay-200" />
@@ -117,6 +117,7 @@ export const Hero = () => {
           className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-10"
         >
           Turning coffee into code and algorithms into art.{" "}
+          <br />
           <span className="text-foreground font-medium">
             I solve problems others avoid.
           </span>
