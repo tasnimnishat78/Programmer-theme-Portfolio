@@ -1,11 +1,12 @@
 import { motion } from "framer-motion";
-import { Github, Linkedin, Twitter, Mail, Heart, Code } from "lucide-react";
+import { Github, Linkedin, Twitter, Facebook, Mail, Heart, Code } from "lucide-react";
 
 const socialLinks = [
-  { icon: Github, href: "https://github.com/sohayel", label: "GitHub" },
-  { icon: Linkedin, href: "https://linkedin.com/in/sohayel", label: "LinkedIn" },
-  { icon: Twitter, href: "https://twitter.com/sohayel", label: "Twitter" },
-  { icon: Mail, href: "mailto:sohayel@example.com", label: "Email" },
+  { icon: Github, href: "https://github.com/sohayelmahmud", label: "GitHub" },
+  { icon: Linkedin, href: "https://linkedin.com/in/sohayelmahmud", label: "LinkedIn" },
+  { icon: Facebook, href: "https://facebook.com/sohayel.mahmud.7", label: "Facebook" },
+  { icon: Twitter, href: "https://x.com/MahmudSohayel", label: "Twitter" },
+  { icon: Mail, href: "mailto:sohayelmahmud@yahoo.com", label: "Email" },
 ];
 
 const quickLinks = [
@@ -37,7 +38,7 @@ export const Footer = () => {
                 className="h-8 md:h-10 w-auto object-contain"
               />
             </motion.a>
-            <p className="text-muted-foreground mb-6 max-w-xs">
+            <p className="text-muted-foreground mb-6 max-w-xs text-justify">
               Competitive programmer & full-stack developer crafting elegant solutions to complex problems.
             </p>
             <div className="flex gap-3">
