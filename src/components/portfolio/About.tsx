@@ -73,7 +73,7 @@ export const About = () => {
               <span className="text-gradient">solving complex problems</span>
             </h2>
 
-            <div className="space-y-4 text-muted-foreground text-lg leading-relaxed mb-8">
+            <div className="space-y-4 text-muted-foreground text-lg leading-relaxed mb-8 text-justify">
               <p>
                 I'm <span className="text-foreground font-semibold">Sohayel Mahmud</span>,
                 a student developer with a deep passion for competitive programming and
