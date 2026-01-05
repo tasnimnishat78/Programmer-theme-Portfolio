@@ -5,7 +5,7 @@ import { GraduationCap, Award, BookOpen } from "lucide-react";
 
 const education = [
   {
-    institution: "University of Kufa, Irac",
+    institution: "University of Kufa, Iraq",
     degree: "Bachelor of Science in Electronics Engineering",
     period: "2025 - Present",
     result: null,
@@ -14,7 +14,7 @@ const education = [
     isCurrent: true,
   },
   {
-    institution: "Dhaka College",
+    institution: "Dhaka College, Dhaka",
     degree: "Higher Secondary Certificate (HSC)",
     period: "2022 - 2023",
     result: "GPA: 5.00/5.00",

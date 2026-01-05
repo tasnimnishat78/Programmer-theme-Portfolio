@@ -14,7 +14,7 @@ const platforms = [
     color: "from-blue-500 to-blue-600",
     bgColor: "bg-blue-500/10",
     borderColor: "border-blue-500/30",
-    icon: "CF",
+    icon: "/cf.svg",
     contests: 87,
   },
   {
@@ -27,7 +27,7 @@ const platforms = [
     color: "from-yellow-500 to-orange-500",
     bgColor: "bg-yellow-500/10",
     borderColor: "border-yellow-500/30",
-    icon: "LC",
+    icon: "/lc.svg",
     contests: 52,
   },
   {
@@ -40,7 +40,7 @@ const platforms = [
     color: "from-amber-600 to-amber-700",
     bgColor: "bg-amber-600/10",
     borderColor: "border-amber-600/30",
-    icon: "CC",
+    icon: "/cc.svg",
     contests: 34,
   },
   {
@@ -53,22 +53,35 @@ const platforms = [
     color: "from-cyan-500 to-teal-500",
     bgColor: "bg-cyan-500/10",
     borderColor: "border-cyan-500/30",
-    icon: "AC",
+    icon: "/ac.png",
     contests: 28,
   },
   {
     name: "HackerRank",
     handle: "@sohayelmahmud612",
-    rating: null,
-    maxRating: null,
+    rating: 9859,
+    maxRating: 8434,
     rank: "5★ Gold",
     solved: 250,
     color: "from-green-500 to-emerald-500",
     bgColor: "bg-green-500/10",
     borderColor: "border-green-500/30",
-    icon: "HR",
+    icon: "/hr.svg",
     contests: 15,
   },
+  {
+    name: "Exercism",
+    handle: "@sohayelmahmud",
+    rating: null,
+    maxRating: null,
+    rank: "Pro",
+    solved: 150,
+    color: "from-purple-500 to-violet-500",
+    bgColor: "bg-purple-500/10",
+    borderColor: "border-purple-500/30",
+    icon: "ex.svg",
+    contests: 0,
+  }
 ];
 
 const AnimatedCounter = ({ end, duration = 2, suffix = "" }: { end: number; duration?: number; suffix?: string }) => {
@@ -111,8 +124,12 @@ const PlatformCard = ({ platform, index }: { platform: typeof platforms[0]; inde
       {/* Platform header */}
       <div className="flex items-start justify-between mb-6">
         <div>
-          <div className={`inline-flex items-center justify-center w-12 h-12 rounded-xl bg-gradient-to-br ${platform.color} text-white font-bold text-lg mb-3`}>
-            {platform.icon}
+          <div className="inline-flex items-center justify-center w-14 h-14 rounded-xl bg-white shadow-md p-2 mb-3 group-hover:scale-110 transition-transform duration-300">
+            <img
+              src={platform.icon}
+              alt={platform.name}
+              className="w-full h-full object-contain"
+            />
           </div>
           <h3 className="text-xl font-bold text-foreground">{platform.name}</h3>
           <p className="text-sm text-muted-foreground font-mono">{platform.handle}</p>
