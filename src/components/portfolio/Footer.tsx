@@ -10,12 +10,12 @@ const socialLinks = [
 ];
 
 const quickLinks = [
-  { name: "About", href: "#about" },
-  { name: "Skills", href: "#skills" },
-  { name: "Code Arena", href: "#code-arena" },
-  { name: "Experience", href: "#experience" },
-  { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
+  { name: "About", href: "/#about" },
+  { name: "Skills", href: "/#skills" },
+  { name: "Code Arena", href: "/#code-arena" },
+  { name: "Experience", href: "/#experience" },
+  { name: "Projects", href: "/#projects" },
+  { name: "Contact", href: "/#contact" },
 ];
 
 export const Footer = () => {
@@ -28,7 +28,7 @@ export const Footer = () => {
           {/* Brand */}
           <div>
             <motion.a
-              href="#"
+              href="/#"
               className="inline-block text-2xl font-bold text-gradient mb-4"
               whileHover={{ scale: 1.05 }}
             >
@@ -84,7 +84,7 @@ export const Footer = () => {
               Looking for a competitive programmer or developer for your team?
             </p>
             <motion.a
-              href="#contact"
+              href="/#contact"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
               className="inline-flex items-center gap-2 px-6 py-3 rounded-full bg-primary text-primary-foreground font-medium hover:bg-primary/90 transition-colors"
